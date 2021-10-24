@@ -9,4 +9,4 @@ def test_merge_pdf():
         PROJECT_RESOURCES_DIR + '/bash_cheat_sheet.pdf',
     ]
     merger = merge_pdf(pdf_list)
-    write_pdf(merger, 'mergetest.pdf')
+    write_pdf(merger, PROJECT_RESOURCES_DIR + '/mergetest.pdf')
